@@ -48,6 +48,7 @@ int32 | ??
 int32 | Start level
 int32 | Start X
 int32 | Start Y
+
 Rest of file is unknown bytes
 
 # Data BD
@@ -77,6 +78,7 @@ bytes | value
 ---|---
 Tile[201] | Position of monster in 13x13 grid.
 int16 | Base tile id
+
 rest of file is unknown bytes
 
 **Tile**
