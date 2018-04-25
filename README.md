@@ -40,6 +40,7 @@ Scenario.rsf | Resources (images, sounds, etc.)
 ### All values in the files are big endian
 
 # <scenario name>
+ 
 bytes | value
 ---|---
 int32 | Recomended starting level
@@ -53,6 +54,7 @@ Rest of file is unknown bytes
 File contains 256 battles
 #### Battle
 346 bytes
+
 bytes | value
 ---|---
 0-337 | Position of monster in 13x13 grid.
@@ -70,6 +72,7 @@ One of the unknown is probably battle macro id.
 # Data Custom 1 BD
 This has the same structure as the main tilset definitions in main data: Data <landname> BD
 Zero tile is not used, so we have 200 tiles.
+ 
 bytes | value
 ---|---
 Tile[201] | Position of monster in 13x13 grid.
