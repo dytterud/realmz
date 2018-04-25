@@ -104,3 +104,4 @@ bytes | value
 int16 [2000] | Item id per group. 5 groups x 400 items.
 int8 [2000] | Item inventory count. 
 int16 | Inflation (% of normal item price)
+
