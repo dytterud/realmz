@@ -99,6 +99,7 @@ one of the unknown is "Indoor Tile Set"
 File contains 21 shops. Zero shop is not used. So we have 20 shops.
 **Shop**
 3002 bytes
+
 bytes | value
 ---|---
 int16 [2000] | Item id per group. 5 groups x 400 items.
