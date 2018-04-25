@@ -102,8 +102,8 @@ one of the unknown is "Indoor Tile Set"
 
 # Data SD
 File contains 21 shops. Zero shop is not used. So we have 20 shops.
-**Shop**
-3002 bytes
+
+**Shop** 3002 bytes
 
 bytes | value
 ---|---
