@@ -17,8 +17,8 @@ Data ED3 | Extra action points
 Data EDCD | Extra codes
 Data LD | Level data (tile map)
 Data MD | Monster data (including NPCs)
-Data MD1 | Almost the same as MD, but some values are changed.
-Data MD-1 | Same as MD1
+Data MD1 | Almost the same as MD, but some values are changed
+Data MD-1 | Almost the same as MD, but some values are changed
 Data MD2 | Map data (includes descriptions)
 Data MENU | ???
 Data NI | ??? (200 * 100 bytes)
@@ -99,6 +99,87 @@ int16 [9] | Battle expansion
 int16 | ???
 
 one of the unknown is "Indoor Tile Set"
+# Data DD
+
+bytes | value
+---|---
+int32 | Location code
+int8 | To level id
+int8 | To X
+int8 | To Y
+int8 | Percent chance
+int16 [8] | Command codes
+int16 [8] | Argument codes
+
+**Parse location code**
+X = Location code % 100
+Y = (Location code / 100) % 100
+Level id = (Location code / 10000) % 100;
+
+# Data DDD
+Same format as DD
+
+# Data DES
+
+bytes | value
+---|---
+int8 | String length
+int8 [255] | text
+
+# Data DL
+Same format as LD, but transposed.
+# Data ED
+
+bytes | value
+---|---
+int8 [4][8] | Choice codes
+int16 [4][8] | Choice args
+int8 [4] | Choice result index
+int8 | Can backout
+int8 | Max times
+int16 | unknown
+int16 | Prompt
+Text[4] | Option texts
+
+**Text**
+
+bytes | value
+---|---
+int8 | String length
+int8 [79] | Text
+
+# Data ED2
+# Data ED3
+Same format as DD
+# Data EDCD
+
+bytes | value
+---|---
+int16 [5] | Codes
+
+# Data LD
+
+bytes | value
+---|---
+int16 [90][90] | Tile id
+
+# Data MD
+# Data MD1
+# Data MD-1
+# Data MD2
+# Data MENU
+# Data NI
+# Data OD
+
+bytes | value
+---|---
+int8 | String length
+int8 [24] | text
+
+# Data Race
+# Data Caste
+# Data RD
+# Data RDD
 
 # Data SD
 File contains 21 shops. Zero shop is not used. So we have 20 shops.
@@ -107,7 +188,7 @@ File contains 21 shops. Zero shop is not used. So we have 20 shops.
 
 bytes | value
 ---|---
-int16 [2000] | Item id per group. 5 groups x 400 items.
-int8 [2000] | Item inventory count. 
+int16 [1000] | Item id per group. 5 groups x 200 items.
+int8 [1000] | Item inventory count. 
 int16 | Inflation (% of normal item price)
 
