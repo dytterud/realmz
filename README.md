@@ -76,7 +76,7 @@ Zero tile is not used, so we have 200 tiles.
  
 bytes | value
 ---|---
-Tile[201] | Position of monster in 13x13 grid.
+Tile[201] | tiles
 int16 | Base tile id
 
 rest of file is unknown bytes
