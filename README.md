@@ -2,7 +2,7 @@ I got alot of the information from [fuzziqersoftware](https://github.com/fuzziqe
 
 Filename | Contains
  ------ | ------ 
-scenario name | Scenario metadata. Recomended levels, starting pos
+*scenario name* | Scenario metadata. Recomended levels, starting pos
 Data BD | Battle data. Position of monster og battle start and what kind of monsters.
 Data CI | Contact info.
 Data CS | This seems to be the same as <scenario name> ??
@@ -39,7 +39,7 @@ Scenario.rsf | Resources (images, sounds, etc.)
 
 ### All values in the files are big endian
 
-# scenario name
+# *scenario name*
  
 bytes | value
 ---|---
