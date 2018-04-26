@@ -5,7 +5,7 @@ Filename | Contains
 *scenario name* | Scenario metadata. Recomended levels, starting pos
 Data BD | Battle data. Position of monster og battle start and what kind of monsters.
 Data CI | Contact info.
-Data CS | This seems to be the same as <scenario name> ??
+Data CS | This seems to be the same as *scenario name* ??
 Data Custom 1 BD | Custom land tileset definitions.
 Data DD | Land action point codes
 Data DDD | Dungeon action point codes
