@@ -21,7 +21,7 @@ Data MD1 | Almost the same as MD, but some values are changed
 Data MD-1 | Almost the same as MD, but some values are changed
 Data MD2 | Map data (includes descriptions)
 Data MENU | ???
-Data NI | ??? Maybe something with item editor? (200 * 100 bytes)
+Data NI | ??? Probably something to do with custom items. (200 * 100 bytes)
 Data OD | Yes/no encounter (option) answer strings
 Data Race | Custom race config
 Data Caste | Custom caste config
