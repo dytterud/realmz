@@ -39,7 +39,7 @@ Scenario.rsf | Resources (images, sounds, etc.)
 
 ### All values in the files are big endian
 
-# <scenario name>
+# scenario name
  
 bytes | value
 ---|---
