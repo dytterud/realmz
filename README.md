@@ -192,3 +192,11 @@ int16 [1000] | Item id per group. 5 groups x 200 items.
 int8 [1000] | Item inventory count. 
 int16 | Inflation (% of normal item price)
 
+
+# Data SD2
+
+bytes | value
+---|---
+int8 | String length
+int8 [255] | text
+
