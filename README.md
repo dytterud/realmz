@@ -179,6 +179,37 @@ int8 [24] | text
 # Data Race
 # Data Caste
 # Data RD
+
+bytes | value
+---|---
+RandomRectCoords [20] | Random rectangles coords
+int16 [20] | TimesIn10k
+RandomRectBattleRange [20] | BattleRange
+int16 [20][3] |  XapNum
+int16 [20][3] | XapChance
+int8 | LandType;
+int8 [22] | Unknown. Dark ? Los ?
+int8 [20] | PercentOption
+int8 | unused;
+int16 [20] | sound
+int16 [20] | text
+
+**RandomRectBattleRange**
+
+bytes | value
+---|---
+int16 | Low
+int16 | High
+
+**RandomRectCoords**
+
+bytes | value
+---|---
+int16 | Top
+int16 | Left
+int16 | Buttom
+int16 | Right
+
 # Data RDD
 
 # Data SD
