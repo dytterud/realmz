@@ -25,7 +25,7 @@ Data NI | ??? Probably something to do with custom items. (200 * 100 bytes)
 Data OD | Yes/no encounter (option) answer strings
 Data Race | Custom race config
 Data Caste | Custom caste config
-Data RD | Random rectangles
+Data RD | land map metadata incuding random rectangles
 Data RDD | Dungeon random rectangles
 Data SD | Shop data
 Data SD2 | Strings
