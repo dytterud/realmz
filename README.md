@@ -187,8 +187,10 @@ int16 [20] | TimesIn10k
 RandomRectBattleRange [20] | BattleRange
 int16 [20][3] |  XapNum
 int16 [20][3] | XapChance
-int8 | LandType;
-int8 [22] | Unknown. Dark ? Los ?
+int8 | LandType
+int8 | Dark
+int8 | LOS (line of sight)
+int8 [20] | Unknown. Bool values. This rect only?
 int8 [20] | PercentOption
 int8 | unused;
 int16 [20] | sound
