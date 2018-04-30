@@ -20,7 +20,7 @@ Data MD | Monster data (including NPCs)
 Data MD1 | Almost the same as MD, but some values are changed
 Data MD-1 | Almost the same as MD, but some values are changed
 Data MD2 | Map data (includes descriptions)
-Data MENU | ???
+Data MENU | This file contains info used to construct the Beastiary Menu
 Data NI | ??? Probably something to do with custom items. (200 * 100 bytes)
 Data OD | Yes/no encounter (option) answer strings
 Data Race | Custom race config
