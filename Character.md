@@ -35,7 +35,6 @@ INT16 | Max spell Points
 INT16 | ???
 INT16 | ???
 INT16 | ???
-
 60: |
 INT16 | Bare hand damage
 conditions:
