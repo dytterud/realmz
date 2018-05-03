@@ -1,5 +1,6 @@
 # Not complete
 
+Spell points is calculated from knowledge.
 
 bytes | value
 ---|---
@@ -9,17 +10,13 @@ INT16 | Dodge missile
 INT16 | Missile adjust
 INT8[4] | ???
 INT16 | Attacks per round ? (divide by 2)
-10:
-
-16:
+INT8[6] | ???
 INT16 | Number of items (max 30)
-
-28:
+INT8[16] | ???
 INT16 | Magic resistance
 INT16 | ???
 INT16 | Armor rating
 INT16 | Damage
-30:
 INT16 | Race
 INT16 | Caste
 INT16 | ???
@@ -28,9 +25,9 @@ INT16 | Skill level
 INT16 | ???
 INT16 | Movement
 
-4e:
+4e: |
 INT16 | Current stamina (hit points)
-50:
+50: |
 INT16 | Max stamina (hit points)
 INT16 | Portrait ID
 INT16 | Battle image ID
@@ -41,21 +38,38 @@ INT16 | ???
 INT16 | ???
 
 
-60:
+60: |
 INT16 | Bare hand damage
 conditions:
 INT16 | 
 tilogmed 020
 
-be:
-INT16 | Remaining spell selection points
+b2: |
+Special abilities:
+INT16 | Magic using
+INT16 | The undead
+INT16 | Demonic
+INT16 | Reptilian
+INT16 | Evil creatures
+INT16 | Intelligent
+INT16 | Large creatures
+c0: |
+INT16 | Non humanoid
+INT16 | Unused special ability
+INT16 | Unused special ability
+INT16 | Unused special ability
+INT16 | Unused special ability
+INT16 | ???
+INT16 | ???
+INT16 | ???
 
-f6:
+
+f6: |
 INT16 | Cause major wound
 INT16 | Acrobatic act
 INT16 | Force lock
 
-110:
+110: |
 Demage reduction vs:
 INT16 | Charm
 INT16 | Heat
@@ -66,14 +80,14 @@ INT16 | Mental
 INT16 | Magic
 INT16 | Special
 
-124:
+124: |
 items[]
 INT16 | Item ID
 INT8 | Equiped
 INT8 | Identified
 INT16 | Number of uses | Infinite = FFFF
 
-1ec:
+1ec: |
 INT32 | Age in days
 INT32 | Victory points
 INT16 | Load
@@ -82,15 +96,18 @@ INT16 | Gold
 INT16 | Gems
 INT16 | Jewelry
 
-205:
+205: |
 INT8 | Brawn
 INT8 | Knowledge
 INT8 | Judgment
 INT8 | Agility
 INT8 | Vitality
 INT8 | Luck
+INT8[84] | 12*7 Spells
 
-280:
+25f: |
+Character name
+280: |
 INT32 | Damage taken
 INT32 | Damage given
 INT32 | Enemies killed
