@@ -71,7 +71,8 @@ One of the unknown is probably battle macro id.
 18 x 256 bytes strings with information on the creater of the scenraio.
 
 # Data Custom 1 BD
-This has the same structure as the main tilset definitions in main data: Data <landname> BD
+This has the same structure as the main tilset definitions in main data: Data <landname> BD.
+
 Zero tile is not used, so we have 200 tiles.
  
 bytes | value
