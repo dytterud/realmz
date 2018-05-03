@@ -39,7 +39,7 @@ INT16 | ???
 INT16 | Bare hand damage
 conditions:
 INT16 | 
-tilogmed 020
+Including 020 |
 b2: |
 Special abilities:
 INT16 | Magic using
@@ -58,7 +58,6 @@ INT16 | Unused special ability
 INT16 | ???
 INT16 | ???
 INT16 | ???
-
 f6: |
 INT16 | Cause major wound
 INT16 | Acrobatic act
