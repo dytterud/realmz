@@ -58,7 +58,7 @@ File contains 256 battles
 
 bytes | value
 ---|---
-0-337 | Position of monster in 13x13 grid.
+int16[169] | Position of monster in 13x13 grid.
 byte | Distance from party
 byte | ???
 int16 | Before battle string id
