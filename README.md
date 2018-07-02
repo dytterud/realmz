@@ -160,6 +160,18 @@ int16 [5] | Codes
 
 # Data LD
 
+0,  "outdoor"
+1,  "reserved1"
+2,  "reserved2"
+3,  "cave"
+4,  "indoor"
+5,  "desert"
+6,  "custom_1"
+7,  "custom_2"
+8,  "custom_3"
+9,  "abyss"
+10, "snow"
+
 bytes | value
 ---|---
 int16 [90][90] | Tile id
