@@ -214,6 +214,7 @@ int16 | Buttom
 int16 | Right
 
 **LandType**
+
 0,  "outdoor"\
 1,  "reserved1"\
 2,  "reserved2"\
