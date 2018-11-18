@@ -279,23 +279,22 @@ int8 [255] | text
 bytes | value
 ---|---
 int8 [8] | actions_available
-int8_t trap_affects_rogue_only;
-int8_t is_trapped;
-int8_t percent_modify[8];
-int8_t success_result_codes[8];
-int8_t failure_result_codes[8];
-int16_t success_string_ids[8];
-int16_t failure_string_ids[8];
-int16_t success_sound_ids[8];
-int16_t failure_sound_ids[8];
-
-int16_t trap_spell;
-int16_t trap_damage_low;
-int16_t trap_damage_high;
-int16_t num_lock_tumblers;
-int16_t prompt_string;
-int16_t trap_sound;
-int16_t trap_spell_power_level;
-int16_t prompt_sound;
-int16_t percent_per_level_to_open;
-int16_t percent_per_level_to_disable;
+int8 | trap_affects_rogue_only
+int8 | is_trapped
+int8 [8] | percent_modify
+int8 [8] | success_result_codes
+int8 [8] | failure_result_codes
+int16 [8] | success_string_ids
+int16 [8] | failure_string_ids
+int16 [8] | success_sound_ids
+int16 [8] | failure_sound_ids
+int16 | trap_spell
+int16 | trap_damage_low
+int16 | trap_damage_high
+int16 | num_lock_tumblers
+int16 | prompt_string
+int16 | trap_sound
+int16 | trap_spell_power_level
+int16 | prompt_sound
+int16 | percent_per_level_to_open
+int16 | percent_per_level_to_disable
