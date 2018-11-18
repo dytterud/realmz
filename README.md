@@ -150,6 +150,34 @@ int8 | String length
 int8 [79] | Text
 
 # Data ED2
+bytes | value
+---|---
+  int8 [4][8] | Choice codes
+  int16 [4][8] | Choice args
+  int8 | Action result
+  int8 | Speak_result
+  int8 [8] | actions_selected
+  int16 [10] | Spell codes
+  int8 [10] Spell result codes
+  int16 [5] | Item codes
+  int8 [5] | Item result codes
+  int8 | Can backout
+  int8 | Has rogue encounter
+  int8 | Maxtimes
+  int16 | Rogue encounter id
+  int8 | Rogue reset flag
+  int8 | unknown
+  int16 | prompt
+  Text [8] | Action text
+  Text [8] | Speak text
+  
+  **Text**
+
+bytes | value
+---|---
+int8 | String length
+int8 [39] | Text
+
 # Data ED3
 Same format as DD
 # Data EDCD
