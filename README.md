@@ -12,7 +12,7 @@ Data DDD | Dungeon action point codes
 Data DES | Monster descriptions
 Data DL | Dungeon levels
 Data ED | Simple encounters
-Data ED2 | Complex encounters
+Data ED2 | [Complex encounters](#data-ed2)
 Data ED3 | Extra action points
 Data EDCD | Extra codes
 Data LD | Level data (tile map)
@@ -158,7 +158,7 @@ bytes | value
   int8 | Speak_result
   int8 [8] | actions_selected
   int16 [10] | Spell codes
-  int8 [10] Spell result codes
+  int8 [10] | Spell result codes
   int16 [5] | Item codes
   int8 [5] | Item result codes
   int8 | Can backout
