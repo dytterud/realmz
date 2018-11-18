@@ -31,7 +31,7 @@ Data SD | Shop data
 Data SD2 | Strings
 Data Solids | Solid special tiles.
 Data TD | Treasure data
-Data TD2 | Rogue encounters
+Data TD2 | [Rogue encounters](#data-td2)
 Data TD3 | Time encounters
 Global | Global macros
 Scenario | ???
@@ -275,3 +275,27 @@ bytes | value
 int8 | String length
 int8 [255] | text
 
+# Data TD2
+bytes | value
+---|---
+int8 [8] | actions_available
+int8_t trap_affects_rogue_only;
+int8_t is_trapped;
+int8_t percent_modify[8];
+int8_t success_result_codes[8];
+int8_t failure_result_codes[8];
+int16_t success_string_ids[8];
+int16_t failure_string_ids[8];
+int16_t success_sound_ids[8];
+int16_t failure_sound_ids[8];
+
+int16_t trap_spell;
+int16_t trap_damage_low;
+int16_t trap_damage_high;
+int16_t num_lock_tumblers;
+int16_t prompt_string;
+int16_t trap_sound;
+int16_t trap_spell_power_level;
+int16_t prompt_sound;
+int16_t percent_per_level_to_open;
+int16_t percent_per_level_to_disable;
