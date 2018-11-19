@@ -278,8 +278,8 @@ int8 [255] | text
 # Data TD2
 bytes | value
 ---|---
-int8 [8] | actions_available
-int8 | trap_affects_rogue_only
+int8 [8] | Actions available
+int8 | Trap affects rogue only
 int8 | is_trapped
 int8 [8] | percent_modify
 int8 [8] | success_result_codes
