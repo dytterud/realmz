@@ -169,7 +169,7 @@ bytes | value
   int8 | unknown
   int16 | prompt
   Text [8] | Action text
-  Text [8] | Speak text
+  Text | Speak text
   
   **Text**
 
