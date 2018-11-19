@@ -15,7 +15,7 @@ Data ED | Simple encounters
 Data ED2 | [Complex encounters](#data-ed2)
 Data ED3 | Extra action points
 Data EDCD | Extra codes
-Data LD | Level data (tile map)
+Data LD | [Level data (tile map)](#data-ld)
 Data MD | Monster data (including NPCs)
 Data MD1 | Almost the same as MD, but some values are changed
 Data MD-1 | Almost the same as MD, but some values are changed
