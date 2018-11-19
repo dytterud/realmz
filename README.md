@@ -27,8 +27,8 @@ Data Race | Custom race config
 Data Caste | Custom caste config
 Data RD | land map metadata incuding random rectangles
 Data RDD | Dungeon random rectangles
-Data SD | Shop data
-Data SD2 | Strings
+Data SD | [Shop data](#data-sd)
+Data SD2 | [Strings](#data-sd2)
 Data Solids | Solid special tiles.
 Data TD | Treasure data
 Data TD2 | [Rogue encounters](#data-td2)
