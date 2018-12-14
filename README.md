@@ -7,8 +7,8 @@ Data BD | [Battle data](#data-bd). Position of monster og battle start and what 
 Data CI | [Contact info](#data-ci)
 Data CS | This seems to be the same as *scenario name* ??
 Data Custom 1 BD | Custom land tileset definitions.
-Data DD | Land action point codes
-Data DDD | Dungeon action point codes
+Data DD | [Land action point codes](#data-dd)
+Data DDD | [Dungeon action point codes](#data-ddd)
 Data DES | Monster descriptions
 Data DL | Dungeon levels
 Data ED | Simple encounters
