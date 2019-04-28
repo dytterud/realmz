@@ -79,6 +79,7 @@ bytes | value
 ---|---
 Tile[201] | tiles
 int16 | Base tile id
+int16 | Indoor tileset ?
 
 rest of file is unknown bytes
 
