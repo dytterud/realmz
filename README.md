@@ -17,7 +17,7 @@ Data ED3 | Extra action points
 Data EDCD | Extra codes
 Data ID | Standard items
 Data LD | [Level data (tile map)](#data-ld)
-Data MD | Monster data (including NPCs) - normal monsters
+Data MD | [Monster data (including NPCs) - normal monsters](#Data-MD)
 Data MD1 | Monster data - monster monsters
 Data MD-1 | Monster data - mega monsters
 Data MD2 | Map data (includes descriptions)
